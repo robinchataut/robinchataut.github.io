@@ -242,8 +242,8 @@ ul#nav li.current a { color: #F06000; }
 
 #recent {
    background: #D8D8D8;
-   padding-top: 10px;
-   padding-bottom: 10px;
+   padding-top: 25px;
+   padding-bottom: 25px;
    overflow: hidden;
    border-bottom: 1px solid #11ABB0;
 }
@@ -418,8 +418,8 @@ ul#nav li.current a { color: #F06000; }
 
 #research {
    background: #D8D8D8;
-   padding-top: 10px;
-   padding-bottom: 10px;
+   padding-top: 25px;
+   padding-bottom: 25px;
    overflow: hidden;
    border-bottom: 1px solid #11ABB0;
 }
@@ -650,8 +650,8 @@ call-to-action .button {
 
 #testimonials {
    background: #D8D8D8;
-   padding-top: 10px;
-   padding-bottom: 10px;
+   padding-top: 25px;
+   padding-bottom: 25px;
    overflow: hidden;
    border-bottom: 1px solid #11ABB0;
 }
@@ -823,8 +823,8 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 #contacts {
    background: #D8D8D8;
-   padding-top: 10px;
-   padding-bottom: 10px;
+   padding-top: 25px;
+   padding-bottom: 25px;
    overflow: hidden;
    border-bottom: 1px solid #11ABB0;
 }
@@ -1004,6 +1004,8 @@ footer {
    font-size: 14px;
    text-align: center;
    position: relative;
+   overflow: hidden;
+   border-bottom: 1px solid #11ABB0;
 }
 
 footer a, footer a:visited { color: white; }
