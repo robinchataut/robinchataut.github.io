@@ -190,7 +190,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: white;
+   background: #D8D8D8;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -241,7 +241,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #recent {
-   background: #fff;
+   background: #D8D8D8;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -417,7 +417,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #research {
-   background: white;
+   background: #D8D8D8;
    padding-top: 90px;
    padding-bottom: 60px;
 }
