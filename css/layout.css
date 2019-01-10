@@ -824,12 +824,13 @@ call-to-action .button {
 #contacts {
    background: #D8D8D8;
    padding-top: 25px;
-   padding-bottom: 25px;
+   padding-bottom: 50px;
    overflow: hidden;
    border-bottom: 1px solid #11ABB0;
+
 }
 #contacts h1 {
-    font: 2px/4px 'opensans-bold', sans-serif;
+    font: 18px/24px 'opensans-bold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -1004,8 +1005,7 @@ footer {
    font-size: 14px;
    text-align: center;
    position: relative;
-   overflow: hidden;
-   border-bottom: 1px solid #11ABB0;
+ 
 }
 
 footer a, footer a:visited { color: white; }
