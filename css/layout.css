@@ -243,7 +243,7 @@ ul#nav li.current a { color: #F06000; }
 #recent {
    background: #D8D8D8;
    padding-top: 25px;
-   padding-bottom: 25px;
+   padding-bottom: 10px;
    overflow: hidden;
    border-bottom: 1px solid #11ABB0;
 }
@@ -419,7 +419,7 @@ ul#nav li.current a { color: #F06000; }
 #research {
    background: #D8D8D8;
    padding-top: 25px;
-   padding-bottom: 25px;
+   padding-bottom: 10px;
    overflow: hidden;
    border-bottom: 1px solid #11ABB0;
 }
@@ -651,7 +651,7 @@ call-to-action .button {
 #testimonials {
    background: #D8D8D8;
    padding-top: 25px;
-   padding-bottom: 25px;
+   padding-bottom: 10px;
    overflow: hidden;
    border-bottom: 1px solid #11ABB0;
 }
@@ -825,7 +825,7 @@ call-to-action .button {
 #contact {
    background: #D8D8D8;
    padding-top: 25px;
-   padding-bottom: 40px;
+   padding-bottom: 10px;
    overflow: hidden;
    border-bottom: 1px solid #11ABB0;
 }
@@ -998,7 +998,7 @@ call-to-action .button {
 #address {
    background: #D8D8D8;
    padding-top: 25px;
-   padding-bottom: 40px;
+   padding-bottom: 20px;
 }
 #address h1 {
     font: 18px/24px 'opensans-bold', sans-serif;
