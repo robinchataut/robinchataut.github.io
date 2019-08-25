@@ -817,14 +817,13 @@ call-to-action .button {
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
    opacity: 0;
 }
-/* ------------------------------------------------------------------
-/* hi. review
+
+/* ------------------------------------------------------------------ */
+/* review Section start
 /* ------------------------------------------------------------------ */
 
-
 #review {
-	   
-   background: #fff9f9;
+   background: #fff9f9;;
    padding-top: 25px;
    padding-bottom: 10px;
    overflow: hidden;
@@ -992,7 +991,8 @@ call-to-action .button {
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
    opacity: 0;
 }
-/* review ends */
+/* review section endz */
+
 /* ------------------------------------------------------------------ */
 /* h. Contact Section
 /* ------------------------------------------------------------------ */
