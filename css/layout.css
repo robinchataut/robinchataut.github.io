@@ -241,7 +241,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #recent {
-   background: #fff9f9;;
+   background: ##D8D8D8;;
    padding-top: 25px;
    padding-bottom: 10px;
    overflow: hidden;
@@ -413,7 +413,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* ------------------------------------------------------------------ */
-/* e. Portfolio Section
+/* e. Research Section
 /* ------------------------------------------------------------------ */
 
 #research {
@@ -998,7 +998,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #D8D8D8;
+   background: #fff9f9;
    padding-top: 25px;
    padding-bottom: 10px;
    overflow: hidden;
