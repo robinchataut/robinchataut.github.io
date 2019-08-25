@@ -241,7 +241,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #recent {
-   background: ##D8D8D8;;
+   background: #fff9f9;;
    padding-top: 25px;
    padding-bottom: 10px;
    overflow: hidden;
@@ -649,7 +649,7 @@ call-to-action .button {
 
 
 #testimonials {
-   background: #D8D8D8;
+   background: #fff9f9;
    padding-top: 25px;
    padding-bottom: 10px;
    overflow: hidden;
@@ -1171,7 +1171,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #address {
-   background: #D8D8D8;
+   background: #fff9f9;
    padding-top: 25px;
    padding-bottom: 20px;
 }
