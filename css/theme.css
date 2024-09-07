@@ -511,14 +511,9 @@ ul.sponsors {
 	margin-bottom: 40px;
 }
 
+
+
 #footer {
-    z-index: 10;
-    margin-top: 50px;
-    margin-bottom: 0px;
-    padding-bottom: 25px;
-    border-top-width: 8px;
-    border-top-style: solid;
-    border-top-color: transparent; /* Make the border color transparent to match the gradient */
     background: #4D1979; /* TCU Purple */
     background: -moz-linear-gradient(45deg, #4D1979 0%, #000000 100%);
     background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #4D1979), color-stop(100%, #000000));
@@ -526,10 +521,11 @@ ul.sponsors {
     background: -o-linear-gradient(45deg, #4D1979 0%, #000000 100%);
     background: -ms-linear-gradient(45deg, #4D1979 0%, #000000 100%);
     background: linear-gradient(45deg, #4D1979 0%, #000000 100%);
-    color: #fff; /* Set text color to white for contrast */
+    color: #fff; /* White text for better contrast */
+    padding-bottom: 25px;
+    padding-top: 25px;
     text-align: center;
 }
-
 
 #footer h3 {
 	font-size: 19px;
