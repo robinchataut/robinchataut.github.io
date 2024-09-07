@@ -514,6 +514,9 @@ ul.sponsors {
 
 
 #footer {
+ width: 100%;
+    max-width: 1000px; /* Match the header's width */
+    margin: 0 auto;
     z-index: 10;
     margin-top: 50px;
     margin-bottom: 0px;
