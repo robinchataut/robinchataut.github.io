@@ -25,26 +25,29 @@
             padding-bottom: 8px;
         }
 
-        /* News Cards */
         .news-card {
             background: #ffffff;
             border: 1px solid #e1e5ee;
             border-radius: 10px;
-            padding: 18px 20px;
-            margin-bottom: 20px;
+            padding: 18px 22px;
+            margin-bottom: 18px;
             box-shadow: 0 3px 10px rgba(0,0,0,0.05);
         }
 
         .news-date {
-            font-weight: bold;
+            font-weight: 700;
             color: #5a2ecf;
-            margin-bottom: 5px;
+            margin-bottom: 4px;
+        }
+
+        .news-title {
+            font-size: 1.05em;
+            line-height: 1.5;
         }
 
         .news-title a {
             color: #2c3e50;
             text-decoration: none;
-            font-size: 1.15em;
             font-weight: 600;
         }
 
@@ -65,13 +68,8 @@
             margin-top: 60px;
         }
 
-        footer h3 {
-            color: #fff;
-        }
-
-        footer a {
-            color: #fff;
-        }
+        footer h3 { color: #fff; }
+        footer a { color: #fff; }
     </style>
 </head>
 
@@ -104,22 +102,38 @@
 
     <hr>
 
-    <!-- News -->
+    <!-- News Content -->
     <div class="row-fluid">
         <div class="span10 offset1">
             <div class="page-header">
                 <h3>Recent News & Highlights</h3>
             </div>
 
-            <!-- 🔹 Example cards (pattern repeated) -->
-
+            <!-- 2026 -->
             <div class="news-card">
                 <div class="news-date">Jan 2026</div>
                 <div class="news-title">
                     <i class="fas fa-file-alt news-icon"></i>
                     <a href="https://ai4ed.cc/workshops/aaai2026">
-                        Research paper accepted at AAAI Workshop on AI for Education (AI4EDU), Singapore
+                        Research paper accepted at the AAAI Workshop on AI for Education (AI4EDU), Singapore
                     </a>
+                </div>
+            </div>
+
+            <!-- 2025 -->
+            <div class="news-card">
+                <div class="news-date">Dec 2025</div>
+                <div class="news-title">
+                    <i class="fas fa-chalkboard-teacher news-icon"></i>
+                    Attended NSF CISE Research Expansion (RE) Aspiring PI Workshop, Miami, FL
+                </div>
+            </div>
+
+            <div class="news-card">
+                <div class="news-date">Dec 2025</div>
+                <div class="news-title">
+                    <i class="fas fa-brain news-icon"></i>
+                    Attended Far.AI Alignment Workshop, San Diego, CA
                 </div>
             </div>
 
@@ -131,18 +145,7 @@
                     <br>
                     <a href="https://ieeexplore.ieee.org/document/11159193">
                         AI, ML, and LLM Integration in 5G/6G Networks
-                    </a>
-                </div>
-            </div>
-
-
-            
-            <div class="news-card">
-                <div class="news-date">Sep 2025</div>
-                <div class="news-title">
-                    <i class="fas fa-journal-whills news-icon"></i>
-                    Research papers accepted at <i>IEEE Access</i>:
-                    <br>
+                    </a><br>
                     <a href="https://ieeexplore.ieee.org/document/11141387">
                         Green Cybersecurity: Leveraging AI, ML, and LLMs
                     </a>
@@ -150,12 +153,85 @@
             </div>
 
             <div class="news-card">
+                <div class="news-date">Aug 2025</div>
+                <div class="news-title">
+                    <i class="fas fa-file-alt news-icon"></i>
+                    <a href="https://ksiresearch.org/seke/seke25.html">
+                        Research paper accepted at SEKE 2025
+                    </a>
+                </div>
+            </div>
+
+            <div class="news-card">
+                <div class="news-date">May 2025</div>
+                <div class="news-title">
+                    <i class="fas fa-file-alt news-icon"></i>
+                    Three research papers accepted at IEEE World AI IoT Congress 2025
+                </div>
+            </div>
+
+            <div class="news-card">
+                <div class="news-date">May 2025</div>
+                <div class="news-title">
+                    <i class="fas fa-microphone news-icon"></i>
+                    Gave research talk at TCU Technology Seminar on AI, ML, and LLMs for Next-Generation Networks
+                </div>
+            </div>
+
+            <div class="news-card">
                 <div class="news-date">April 2025</div>
                 <div class="news-title">
-                    <i class="fas fa-award news-icon"></i>
-                    <a href="https://tcu.edu">
-                        Awarded RCAF Research Grant ($4,500) as PI
-                    </a>
+                    <i class="fas fa-dollar-sign news-icon"></i>
+                    Awarded RCAF Research Grant ($4,500), PI
+                </div>
+            </div>
+
+            <div class="news-card">
+                <div class="news-date">Jan 2025</div>
+                <div class="news-title">
+                    <i class="fas fa-book news-icon"></i>
+                    Published book chapter: <i>Introduction to Deepfake Technology and Its Early Foundations</i>
+                </div>
+            </div>
+
+            <div class="news-card">
+                <div class="news-date">Jan 2025</div>
+                <div class="news-title">
+                    <i class="fas fa-dollar-sign news-icon"></i>
+                    Awarded DOF Research Grant ($50,000), PI
+                </div>
+            </div>
+
+            <!-- 2024 -->
+            <div class="news-card">
+                <div class="news-date">Oct 2024</div>
+                <div class="news-title">
+                    <i class="fas fa-trophy news-icon"></i>
+                    Won two Best Presentation Awards at IEEE UEMCON, IBM Research Center, NY
+                </div>
+            </div>
+
+            <div class="news-card">
+                <div class="news-date">Sep 2024</div>
+                <div class="news-title">
+                    <i class="fas fa-file-alt news-icon"></i>
+                    Paper published in <i>IEEE Access</i>: Security and Privacy in E-Health Systems
+                </div>
+            </div>
+
+            <div class="news-card">
+                <div class="news-date">Sep 2024</div>
+                <div class="news-title">
+                    <i class="fas fa-users news-icon"></i>
+                    Selected for TCU R2 Strong Proposal Development Program
+                </div>
+            </div>
+
+            <div class="news-card">
+                <div class="news-date">April 2024</div>
+                <div class="news-title">
+                    <i class="fas fa-file-alt news-icon"></i>
+                    Paper published and presented at ASEE NE Conference, Fairfield, CT
                 </div>
             </div>
 
@@ -163,24 +239,50 @@
                 <div class="news-date">Feb 2024</div>
                 <div class="news-title">
                     <i class="fas fa-dollar-sign news-icon"></i>
-                    <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2325760">
-                        Awarded NSF Grant ($1,000,000) – Co-PI
-                    </a>
+                    Awarded NSF Grant ($1,000,000), Co-PI
                 </div>
             </div>
 
             <div class="news-card">
-                <div class="news-date">Dec 2023</div>
+                <div class="news-date">Jan 2024</div>
                 <div class="news-title">
                     <i class="fas fa-user-graduate news-icon"></i>
-                    <a href="https://www.ieee.org/membership/senior/">
-                        Elevated to IEEE Senior Member
-                    </a>
+                    Chaired session and presented research at IEEE CCWC 2024, Las Vegas
                 </div>
             </div>
 
-            <!-- 🔽 Repeat same card structure for remaining items -->
-            <!-- (I preserved all your content; just paste each item into a news-card) -->
+            <!-- 2023 -->
+            <div class="news-card">
+                <div class="news-date">Dec 2023</div>
+                <div class="news-title">
+                    <i class="fas fa-star news-icon"></i>
+                    Elevated to IEEE Senior Member
+                </div>
+            </div>
+
+            <div class="news-card">
+                <div class="news-date">Nov 2023</div>
+                <div class="news-title">
+                    <i class="fas fa-newspaper news-icon"></i>
+                    Interviewed by Hartford Business Journal on cybersecurity education
+                </div>
+            </div>
+
+            <div class="news-card">
+                <div class="news-date">Sep 2023</div>
+                <div class="news-title">
+                    <i class="fas fa-tv news-icon"></i>
+                    Featured in Fox61, WKYC, Yahoo News, and HuffPost on cybersecurity topics
+                </div>
+            </div>
+
+            <div class="news-card">
+                <div class="news-date">May 2023</div>
+                <div class="news-title">
+                    <i class="fas fa-trophy news-icon"></i>
+                    Best Paper Award at IEEE ICACT 2023, South Korea
+                </div>
+            </div>
 
         </div>
     </div>
